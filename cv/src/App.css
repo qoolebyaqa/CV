@@ -1,0 +1,10 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+.read-the-docs {
+  height: 70px;
+  background-color: rgb(210, 221, 209);
+  margin: 0;
+}
