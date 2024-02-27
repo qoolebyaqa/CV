@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid rgb(217, 202, 202);
+}
+aside {
+  background-color: rgb(210, 221, 209);
+  margin-right: 20px;
+}
+.text__part {
+  padding-right: 50px;
+}
+.name {
+  font-size: 3rem;
+  margin: 0;
+  text-align: justify;
+  padding-right: 20px;
+  width: 250px;
+}
+.surname {
+  font-size: 4rem;
+  margin: 0;
+  text-align: end;
+}
+.photo__container {
+  width: 150px;
+  height: 150px;
+  background-image: url(/src/assets/avatar.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+.header__contacts {
+  list-style-type: none;
+  padding-right: 30px;
+}
+.header__contacts_item {
+  text-align: left;
+  a {
+    color: white;
+  }
+  a:hover {
+    color: black;
+  }
+}

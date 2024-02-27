@@ -1,0 +1,11 @@
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  border-bottom: 1px solid rgb(217, 202, 202);
+}
+.skillslist {
+  list-style-type: none;
+  text-align: left;
+}
