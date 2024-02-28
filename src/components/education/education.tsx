@@ -3,7 +3,7 @@ import educationStyle from "./education.module.scss"
 const Education = () => {
   return (
     <div className={educationStyle.studyContainer}>
-      <p>Education:</p>
+      <h2>Education:</h2>
       <ol className={educationStyle.studylist}>
         <li>JavaScript/Front-end 2022Q3</li>
         <li>Russian State University of Oil and Gas - branch in the Tashkent city.</li>

@@ -13,8 +13,7 @@ const Header = () => {
         </ul>
       </aside>
       <div className={headerStyles.text__part}>
-        <h4 className={headerStyles.name}>Arthur</h4>
-        <h2 className={headerStyles.surname}>Ten</h2>
+        <h4 className={headerStyles.name}>Arthur Ten</h4>
         <p className={headerStyles.header__prof}>Front-end Developer</p>
       </div>
       <div className={headerStyles.photo__container}>

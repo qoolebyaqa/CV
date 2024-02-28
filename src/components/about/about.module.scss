@@ -1,8 +1,18 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+.title {
+  text-align: left;
+}
 .aboutContainer {
   display: flex;
-  align-items: center;
-  gap: 30px;
-  border-bottom: 1px solid rgb(217, 202, 202);
+}
+
+.aboutComment {
+  text-align: left;
+  font-size: 1.1rem;
 }
 .aboutlist {
   list-style: none;

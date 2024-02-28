@@ -1,9 +1,8 @@
-import { useState } from 'react'
+
 import './App.css'
 import Header from './components/header/header'
 import About from './components/about/about'
 import Skills from './components/skills/skills'
-import Education from './components/education/education'
 import Exp from './components/exp/exp'
 
 function App() {
@@ -13,9 +12,9 @@ function App() {
       <Header />
       <About />
       <Skills />
-      <Education />
       <Exp />      
       <p className="read-the-docs">
+        <a href='https://app.rs.school/certificate/f0egremf'>Certificate RSSchool - JAVASCRIPT/FRONT-END 2022Q3</a>
       </p>
     </div>
   )
