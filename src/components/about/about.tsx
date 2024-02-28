@@ -13,7 +13,7 @@ const About = () => {
           <li className={aboutStyles.questionsign}>Communicative</li>
         </ul>
         <div>
-          <p>I like to discover the new things, people and places. 
+          <p>I like to discover new things, people and places. 
             I will be glad to be a part of the team with intersting ideas. 
             I will try to do the work more easier for everyone. 
             My aim to find task that cannot be resolved with Google :D</p>
