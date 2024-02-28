@@ -1,9 +1,16 @@
 .skills {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: start;
+  justify-content: left;
   gap: 30px;
   border-bottom: 1px solid rgb(217, 202, 202);
+  border-top: 1px solid rgb(217, 202, 202);
+  padding-top: 30px;
+  padding-bottom: 60px;
+  h2 {
+    align-self: flex-start;
+    margin-top: 10px;
+  }
 }
 .skillslist {
   list-style-type: none;

@@ -1,9 +1,28 @@
+.wrapper {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
 .expList {
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
 }
 .expLink {
-  color: rgb(210, 221, 209);
+  font-size: 1.2rem;
+  background-color: rgb(210, 221, 209);
+  transition: .5ms ease;
+  a {
+    color: black;
+  }
+  a:hover {
+    color: white;
+  }
 }
 .expLink:hover {
-  color: rgb(155, 214, 150);
+  color: rgb(255, 255, 255);
+  border: 1.5px solid rgb(32, 65, 37);
 }
