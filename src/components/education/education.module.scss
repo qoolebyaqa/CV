@@ -1,9 +1,18 @@
 .studyContainer {
   display: flex;
-  align-items: center;
   justify-content: left;
-  gap: 30px;
 }
 .studylist {
   text-align: left;
+}
+
+@media screen and (max-width: 1270px) {
+  .studyContainer {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 490px) {
+  .studylist {
+    font-size: 12px;
+  }
 }

@@ -48,3 +48,55 @@ aside {
     color: black;
   }
 }
+@media screen and (max-width: 794px) {
+  .header {
+    margin-top: 5px;
+  }
+  .header__contacts {
+   padding: 0 5px;
+   li {
+    font-size: 90%;
+   }
+  }
+  .name,
+  .header__prof {
+    font-size: 150%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 728px) {
+  .header {
+    background-image: url('/avatar.jpg');
+    background-size: 17%;
+    background-repeat: no-repeat;
+    align-items: flex-start;
+    background-position-x: 78%;
+  }
+  .photo__container {
+    display: none;
+  }
+  .name,
+  .header__prof {
+    font-size: 100%;
+    text-align: center;
+  }
+  .text__part {
+    align-self:flex-end;
+  }
+}
+@media screen and (max-width: 630px) {
+  .header {
+    display: inline;
+    background-image: none;
+  }
+  aside {
+    margin-right: 0;
+  }
+  .photo__container {
+    display: block;
+    margin: 0 auto;
+  }
+  .name {
+    margin: 0 auto;
+  }
+}

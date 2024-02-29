@@ -32,3 +32,9 @@
     color: rgb(170, 197, 176);
   }
 }
+
+@media screen and (max-width: 590px) {
+    .aboutComment {
+      font-size: 12px;
+    }
+}

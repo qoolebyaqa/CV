@@ -8,11 +8,33 @@
   padding-top: 30px;
   padding-bottom: 60px;
   h2 {
-    align-self: flex-start;
+    text-align: left;
     margin-top: 10px;
   }
+}
+.wrapper {
+  display: flex;
 }
 .skillslist {
   list-style-type: none;
   text-align: left;
+}
+
+@media screen and (max-width: 1270px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .skills {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 490px) {
+  .skillslist {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .skillslist {
+    padding-left: 0;
+  }
 }

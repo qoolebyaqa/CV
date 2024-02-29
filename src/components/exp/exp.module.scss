@@ -4,6 +4,10 @@
   align-items: center;
   padding-top: 30px;
   margin-bottom: 30px;
+  h2 {
+    min-width: 20%;
+    text-align: left;
+  }
 }
 .expList {
   list-style-type: none;
@@ -25,4 +29,56 @@
 .expLink:hover {
   color: rgb(255, 255, 255);
   border: 1.5px solid rgb(32, 65, 37);
+}
+
+@media screen and (max-width: 1292px) {
+  .expList {
+    flex-wrap: wrap;
+    li {
+      width: 30%;
+    }
+    button {
+      width: 80%;
+    }
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .wrapper {
+    h2 {
+      min-width: 40%;
+    }
+  }
+  .expList {
+    li {
+      width: 45%;
+      a {
+        font-size: 70%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 675px) {
+  h2 {
+    font-size: 20px;
+  }
+  .wrapper {
+    flex-direction: column;
+  }
+  .expList {
+    gap: 10px;
+    li {
+      a {
+        font-size: 12px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 460px) {
+  .expList {
+    justify-content: center;
+    li {
+      width: 55%;
+    }
+  }
 }
